@@ -1,0 +1,97 @@
+header {
+  background-image: url(images/backgroundcandle.png);
+  height: 350px;
+  background-color: bisque;
+  background-size: cover;
+  background-position: center;
+}
+
+article {
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px rgb(228, 204, 190);
+  padding: 5px;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f3d5c9;
+  color: black;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1rem;
+}
+
+figcaption {
+  font-weight: 700;
+}
+.img-fluid:hover {
+  width: 100%;
+}
+.toolbar {
+  justify-content: center;
+  align-self: flex-start;
+  align-items: center;
+}
+.shop {
+  box-shadow: 3px 3px 5px rgb(228, 204, 190);
+}
+
+.cartButton {
+  background-color: #f3d5c9;
+  margin-bottom: 10px;
+}
+
+.subscribeBtn:focus,
+.cartButton:focus {
+  background-color: #e9a58b;
+}
+
+.selected {
+  background-color: #e9a58b;
+  font-weight: 800;
+}
+
+.logobar {
+  display: flex;
+}
+p#author {
+  font-weight: 700;
+}
+
+.logobar > a:first-of-type {
+  margin-left: 20px;
+}
+.sociallogo {
+  width: 40px;
+  margin: 20px;
+  align-self: center;
+  justify-self: flex-end;
+}
+
+.divider {
+  border: 1px solid grey;
+  width: 60%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.subscribeBtn {
+  align-self: center;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  background-color: #f3d5c9;
+}
+@media (max-width: 576px) {
+  .toolbar {
+    align-self: flex-end;
+  }
+  header > input {
+    width: 200px;
+  }
+}

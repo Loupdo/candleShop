@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Candle Shop, scented candle page showing products to sell."
+    />
+    <title>Shopping Site</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="container-fluid g-3">
+    <header class="row">
+      <h1 class="col align-self-center text-center">
+        The Candle<img
+          src="images/candle.svg"
+          alt="candle logo"
+          width="45px"
+        />Shop
+      </h1>
+      <div class="toolbar list-group list-group-horizontal col mt-2">
+        <div class="list-group-item in-line">
+          <img
+            src="images/magnify.svg"
+            alt="magnifying glass logo"
+            width="20px"
+          />
+          <label for="search">Search</label>
+          <input
+            id="search"
+            type="text"
+            aria-placeholder="Search The Candle Shop"
+            placeholder="Search The Candle Shop"
+          />
+        </div>
+        <a class="list-group-item" href="shopping.html">
+          <img src="images/account.svg" alt="account logo" width="29px" />
+          Account
+        </a>
+        <a class="list-group-item" href="shopping.html"
+          ><img src="images/cart.svg" alt="cart logo" width="29px" /> Cart</a
+        >
+      </div>
+    </header>
+    <main class="container-fluid p-2">
+      <div class="row">
+        <nav class="col-md-2 offset-lg-1 mt-3">
+          <div class="list-group shop">
+            <button class="list-group-item">Specials</button>
+            <button class="list-group-item">All shop</button>
+            <button class="list-group-item selected" aria-current="true">
+              Scented Candle
+            </button>
+            <button class="list-group-item">Jar Candle</button>
+            <button class="list-group-item">Taper Candle</button>
+            <button class="list-group-item">Floating Candle</button>
+          </div>
+        </nav>
+        <div class="col-md-8 offset-sm-1">
+          <h2 class="my-4">Scented Candle</h2>
+          <div class="row g-2">
+            <article class="col-sm-3 mx-2">
+              <figcaption class="text-center">Spring Field Candle</figcaption>
+              <figure>
+                <img
+                  class="img-fluid"
+                  width="70%"
+                  src="images/yellowCandle.JPG"
+                  alt="Yellow scented candle"
+                />
+              </figure>
+              <p class="price">Price: $ 16.99</p>
+              <p class="description">
+                The Candle Shop candle for Home. Scented<br />Fragrence: Spring
+                Field.
+              </p>
+              <button class="cartButton">Add to cart</button>
+            </article>
+            <article class="col-sm-3 mx-2">
+              <figcaption class="text-center">Ocean Storm Candle</figcaption>
+              <figure>
+                <img
+                  class="img-fluid"
+                  width="70%"
+                  src="images/blueCandle.JPG"
+                  alt="Blue scented candle"
+                />
+              </figure>
+              <p class="price">Price: $ 16.99</p>
+              <p class="description">
+                The Candle Shop candle for Home. Scented<br />Fragrence: Ocean
+                Storm.
+              </p>
+              <button class="cartButton">Add to cart</button>
+            </article>
+            <article class="col-sm-3 mx-2">
+              <figcaption>Vineyard Breeze Candle</figcaption>
+              <figure>
+                <img
+                  class="img-fluid"
+                  width="70%"
+                  src="images/darkBlueCandle.JPG"
+                  alt="Dark blue scented candle"
+                />
+              </figure>
+              <p class="price">Price: $ 16.99</p>
+              <p class="description">
+                The Candle Shop candle for Home. Scented<br />Fragrence:
+                Vineyard Breeze.
+              </p>
+              <button class="cartButton">Add to cart</button>
+            </article>
+            <article class="col-sm-3 mx-2">
+              <figcaption>Winter Woods Candle</figcaption>
+              <figure>
+                <img
+                  class="img-fluid"
+                  width="70%"
+                  src="images/darkGreenCandle.JPG"
+                  alt="Dark green scented candle"
+                />
+              </figure>
+              <p class="price">Price: $ 16.99</p>
+              <p class="description">
+                The Candle Shop candle for Home. Scented<br />Fragrence: Winter
+                Woods.
+              </p>
+              <button class="cartButton">Add to cart</button>
+            </article>
+            <article class="col-sm-3 mx-2">
+              <figcaption>Honeygrow Melon Candle</figcaption>
+              <figure>
+                <img
+                  class="img-fluid"
+                  width="70%"
+                  src="images/lightGreenCandle.JPG"
+                  alt="Light green scented candle"
+                />
+              </figure>
+              <p class="price">Price: $ 16.99</p>
+              <p class="description">
+                The Candle Shop candle for Home. Scented<br />Fragrence:
+                Honeygrow Melon.
+              </p>
+              <button class="cartButton">Add to cart</button>
+            </article>
+            <article class="col-sm-3 mx-2">
+              <figcaption>Summer Sunset Candle</figcaption>
+              <figure>
+                <img
+                  class="img-fluid"
+                  width="70%"
+                  src="images/orangeCandle.JPG"
+                  alt="Orange scented candle"
+                />
+              </figure>
+              <p class="price">Price: $ 16.99</p>
+              <p class="description">
+                The Candle Shop candle for Home. Scented<br />Fragrence: Summer
+                Sunset.
+              </p>
+              <button class="cartButton">Add to cart</button>
+            </article>
+            <article class="col-sm-3 mx-2">
+              <figcaption>Summer Flowers Candle</figcaption>
+              <figure>
+                <img
+                  class="img-fluid"
+                  width="70%"
+                  src="images/pinkCandle.JPG"
+                  alt="Pink scented candle"
+                />
+              </figure>
+              <p class="price">Price: $ 16.99</p>
+              <p class="description">
+                The Candle Shop candle for Home. Scented<br />Fragrence: Summer
+                Flowers.
+              </p>
+              <button class="cartButton">Add to cart</button>
+            </article>
+            <article class="col-sm-3 mx-2">
+              <figcaption>Autumn Falls Candle</figcaption>
+              <figure>
+                <img
+                  class="img-fluid"
+                  width="70%"
+                  src="images/redCandle.JPG"
+                  alt="Red scented candle"
+                />
+              </figure>
+              <p class="price">Price: $ 16.99</p>
+              <p class="description">
+                The Candle Shop candle for Home. Scented<br />Fragrence: Autumn
+                Falls.
+              </p>
+              <button class="cartButton">Add to cart</button>
+            </article>
+            <article class="col-sm-3 mx-2">
+              <figcaption>Warm Beach Candle</figcaption>
+              <figure>
+                <img
+                  class="img-fluid"
+                  width="70%"
+                  src="images/warmCandle.JPG"
+                  alt="Warm-colored scented candle"
+                />
+              </figure>
+              <p class="price">Price: $ 16.99</p>
+              <p class="description">
+                The Candle Shop candle for Home. Scented<br />Fragrence: Warm
+                Beach.
+              </p>
+              <button class="cartButton">Add to cart</button>
+            </article>
+            <article class="col-sm-3 mx-2">
+              <figcaption>Coconut Bath Candle</figcaption>
+              <figure>
+                <img
+                  class="img-fluid"
+                  width="70%"
+                  src="images/whiteCandle.JPG"
+                  alt="White scented candle"
+                />
+              </figure>
+              <p class="price">Price: $ 16.99</p>
+              <p class="description">
+                The Candle Shop candle for Home. Scented<br />Fragrence: Coconut
+                Bath.
+              </p>
+              <button class="cartButton">Add to cart</button>
+            </article>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="row">
+      <p class="col-sm-3" id="author">2025 Copyright LMM</p>
+
+      <div class="col-sm-5 logobar">
+        <p class="align-self-center">Join us on our social media:</p>
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img
+            src="images/facebook.svg"
+            class="sociallogo"
+            alt="FaceBook logo"
+          />
+        </a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img
+            src="images/instagram.svg"
+            class="sociallogo"
+            alt="Intagram logo"
+          />
+        </a>
+        <a href="https://x.com/" target="_blank"
+          ><img
+            src="images/twitter.svg"
+            class="sociallogo"
+            alt="twitter logo"
+          />
+        </a>
+      </div>
+      <div class="divider"></div>
+      <div class="row">
+        <div class="col-sm-1 offset-sm-3 pt-3">
+          <img src="images/candle.svg" alt="candle logo" width="50px" />
+        </div>
+        <form class="form-horizontal col-sm-3 offset-sm-1">
+          <p>Subscribe to our newsletter:</p>
+          <div class="form-group">
+            <label class="control-label" for="name">Name *:</label>
+            <input
+              type="text"
+              id="name"
+              name="Name"
+              required
+              aria-required="true"
+              placeholder="Enter your name"
+              aria-label="Enter your name"
+            />
+          </div>
+          <div class="form-group">
+            <label class="control-label" for="email">Email *:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              aria-required="true"
+              placeholder="Enter your email"
+              aria-label="Enter your email"
+            />
+          </div>
+        </form>
+        <div class="col-md-1">
+          <button type="submit" class="subscribeBtn">Subscribe!</button>
+        </div>
+      </div>
+      <div class="divider"></div>
+    </footer>
+  </body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>
